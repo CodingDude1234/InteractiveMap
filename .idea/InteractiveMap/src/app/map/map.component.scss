@@ -1,0 +1,15 @@
+/* Style countries in map when hovered */
+path:hover {
+    fill: #fca311;
+}
+
+/* Style countries in map */
+path{
+    fill: white;
+}
+
+/* Style map */
+svg{
+    background-color: #14213d;
+    border-radius: 20%;
+}

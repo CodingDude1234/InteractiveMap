@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <app-map (customEvent)="countryClicked()"></app-map>
+            </td>
+            <td>
+                <p><span>Country Name: </span> {{countryName}}</p>
+                <p><span>Country Capital: </span> {{countryCapital}}</p>
+                <p><span>Country Region: </span> {{countryRegion}}</p>
+                <p><span>Income Level: </span> {{incomeLevel}}</p>
+                <p><span>Longitude: </span> {{longitude}}</p>
+                <p><span>Latitude: </span> {{latitude}}</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
